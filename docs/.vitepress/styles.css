@@ -1,0 +1,54 @@
+/* docs/.vitepress/styles.css */
+
+/* 首页 Hero 区居中 */
+.VPContent.is-home,
+.VPHero ,.heading {
+  display: flex;            /* 使用 flex 布局 */
+  flex-direction: column;   /* 垂直排列 */
+  align-items: center;      /* 水平居中 */
+  justify-content: center;  /* 垂直居中（可选） */
+  text-align: center;       /* 子元素文字居中 */
+  margin: 0 auto;           /* 容器居中 */
+}
+
+span.name.clip[data-v-72cc4481] {
+	display: inline-block;     /* 保持行内块 */
+	line-height: normal;       /* 避免文字被压扁 */
+	white-space: nowrap;       /* 如果你希望文字一行显示 */
+	overflow: visible;         /* 不裁剪溢出文字 */
+	font-family: "STXingkai", "Microsoft YaHei", "PingFang SC", "Arial", sans-serif !important;
+    /* font-family: "Microsoft YaHei", "PingFang SC", "Arial", sans-serif !important; */
+	font-size: 7rem !important;
+}
+
+
+.VPHero .text{
+	display: inline-block;       /* 保持行内块，方便水平居中 */
+	font-family: "STXingkai", "Microsoft YaHei", "PingFang SC", "Arial";/* 自定义字体 */
+	font-size: 2.5rem;             /* 调整字号，可按需修改 */
+	text-align: center;          /* 内部文字居中 */
+}
+.VPHero .tagline {
+  display: flex;            /* 使用 flex 布局 */
+  flex-direction: column;   /* 垂直排列 */
+  align-items: center;      /* 水平居中 */
+  margin: 0 auto;           /* 容器居中 */
+  white-space: normal;    /* 允许换行 */
+    max-width: 600px;       /* 最大宽度，防止太长 */
+    font-size: 1.5rem;
+    color: #35495e;
+    line-height: 1.6;       /* 行间距 */
+    word-break: break-word;  /* 防止长单词溢出 */
+    text-align: center;     /* 居中对齐 */
+	font-family: "STXingkai", "Microsoft YaHei", "PingFang SC", "Arial";/* 自定义字体 */
+	padding: 0;
+	}
+
+.VPHero .actions {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+

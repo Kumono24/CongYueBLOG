@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VitePress build output
+docs/.vitepress/dist/
+dist/
+
+# Local config / cache
+.DS_Store
+*.local
+.env.local
+.env.*.local
+.vscode/
+.idea/
+
+# Optional: log files
+*.log
+
+# Optional: system files
+Thumbs.db
