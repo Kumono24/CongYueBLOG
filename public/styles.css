@@ -11,7 +11,7 @@
   margin: 0 auto;           /* 容器居中 */
 }
 
-span.name.clip[data-v-72cc4481] {
+span.name.clip {
 	display: inline-block;     /* 保持行内块 */
 	line-height: normal;       /* 避免文字被压扁 */
 	white-space: nowrap;       /* 如果你希望文字一行显示 */
