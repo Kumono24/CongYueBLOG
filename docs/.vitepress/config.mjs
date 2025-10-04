@@ -9,7 +9,7 @@ export default defineConfig({
   description: "A VitePress Site",
   base: "/CongYueBLOG/",
   cleanUrls: false,
-  
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -41,14 +41,19 @@ export default defineConfig({
   
     // TODO 记得改地址
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Kumono24/CongYueBLOG.git'}
     ],
 
     search: {
-      provider: 'local'
-    }
+      provider: 'local',
+      options: {
+        // 指定要包含的路径
+        // exclude: 排除不想被搜索的路径
+        exclude: ['/letters']
+      }
+    },
   },
-  
+
   head: [
       // ['link', { rel: 'stylesheet', href: './styles.css' }]
     ]
