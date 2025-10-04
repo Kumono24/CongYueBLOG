@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as e,ag as o}from"./chunks/framework.C4gzxqKx.js";const _=JSON.parse('{"title":"从越博客","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),t={name:"README.md"};function r(n,l,h,s,d,c){return e(),a("div",null,[...l[0]||(l[0]=[o("",10)])])}const u=i(t,[["render",r]]);export{_ as __pageData,u as default};
