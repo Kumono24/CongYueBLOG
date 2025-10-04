@@ -9,27 +9,7 @@ export default defineConfig({
   description: "A VitePress Site",
   base: "/CongYueBLOG/",
   cleanUrls: false,
-
-  // 这里是 Vite 的构建配置
-  build: {
-    outDir: 'docs/.vitepress/dist', // 显式指定输出目录
-    emptyOutDir: true,             // 清空输出目录
-    rollupOptions: {
-      output: {
-        entryFileNames: 'js/[name]-[hash].js',
-        chunkFileNames: 'js/[name]-[hash].js'
-      }
-    }
-  },
-
-  build: {
-    publicPath: '/CongYueBLOG/' // 确保资源路径正确
-  },
-
-  server: {
-    base: '/CongYueBLOG/' // 开发服务器的 base
-  },
-
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
