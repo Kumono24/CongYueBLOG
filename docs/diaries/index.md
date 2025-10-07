@@ -1,3 +1,7 @@
+<script setup>
+    import Calendar from "../.vitepress/theme/components/Calendar.vue"
+</script>
+
 # 日记
 
 ## 简介
@@ -7,4 +11,4 @@
 
 ~~胡适之啊胡适之，你怎么能如此堕落，先前定下的学习计划都忘了吗？~~
 
-<!-- <DiaryCalendar /> -->
+<Calendar />

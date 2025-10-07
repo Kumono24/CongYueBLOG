@@ -10,6 +10,12 @@ export default defineConfig({
   base: "/CongYueBLOG/",
   cleanUrls: false,
 
+  markdown: {
+    vue: {
+      scriptSetup: true
+    }
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -37,9 +43,7 @@ export default defineConfig({
     ],
 
     sidebar: generateSidebar(),
-    
-  
-    // TODO 记得改地址
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Kumono24/CongYueBLOG.git'}
     ],
@@ -55,6 +59,6 @@ export default defineConfig({
   },
 
   head: [
-      // ['link', { rel: 'stylesheet', href: './styles.css' }]
-    ]
+
+  ]
 })
