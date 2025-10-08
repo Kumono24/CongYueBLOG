@@ -149,7 +149,7 @@ const jumpTo = () => {
   border-radius: 6px;
   cursor: pointer;
 }
-.nav-buttons button:hover { background-color: #dcdcdc; }
+.nav-buttons button:hover { background-color: #dcdcdc; color: #444444}
 
 .current { font-weight: bold; font-size: 1.1rem; text-align: center; }
 
