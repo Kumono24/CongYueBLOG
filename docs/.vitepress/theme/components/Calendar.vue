@@ -122,15 +122,16 @@ const jumpTo = () => {
 </script>
 
 <style scoped>
+@media (prefers-color-scheme: dark){
 .calendar {
   font-family: "Microsoft YaHei", Arial, sans-serif;
   max-width: 480px;
   margin: 2rem auto;
   padding: 1rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #565656;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  background: #fff;
+  box-shadow: 0 2px 8px rgba(15, 13, 13, 0.1);
+  background: var(--vp-c-bg);
 }
 
 .header {
@@ -143,7 +144,7 @@ const jumpTo = () => {
 .nav-buttons button {
   padding: 0.25rem 0.6rem;
   margin: 0 0.1rem;
-  background-color: #f0f0f0;
+  background-color: var(--vp-c-bg);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -178,23 +179,24 @@ thead tr th{
 
 th {
   padding: 0.6rem;
-  background-color: #f6f7f9;
+  background-color: var(--vp-c-bg);
   font-weight: 600;
-  border-bottom: 2px solid #e5e5e5;
+  border-bottom: 2px solid #7f7f7f;
 }
 td {
   padding: 0.6rem 0.8rem;
   border-radius: 6px;
-  border: 1px solid #eaeaea;
-  background-color: white;
-  transition: background 0.2s, transform 0.1s;
+  border: 1px solid #595959;
+  background-color: var(--vp-c-bg);
+  transition: background-color 0.2s, transform 0.1s;
 }
 td.empty { 
-  color:#000000;
-  background: #f9f9f9;
+  color:var(--vp-c-text);
+  background: var(--vp-c-bg);
   border: none; }
-td:not(.empty):hover { background-color: #f0f7ff; transform: scale(1.05); }
+td:not(.empty):hover { background-color: #444444; transform: scale(1.05); }
 a { text-decoration: none; display: inline-block; width: 100%; height: 100%; line-height: 40px; }
-.has-diary { color: white; border-radius: 4px; }
-.no-diary { color: #999; cursor: default; }
+.has-diary { color: var(--vp-c-text); border-radius: 4px; }
+.no-diary { color: #969696; cursor: default; }
+}
 </style>
