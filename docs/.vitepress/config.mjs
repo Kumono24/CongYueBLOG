@@ -32,12 +32,11 @@ export default defineConfig({
           { text: 'python', link: '/categories/technology/python'},
         ]
       },
-      { text: '人文社科', 
+      { text: 'DearHeart', 
         items:[
-          { text: '简介', link: '/categories/humanities/'},
-          { text: '历史', link: '/categories/humanities/history'},
-          { text: '政治经济学', link: '/categories/humanities/economics'},
-          { text: '哲学思辨', link: '/categories/humanities/philosophy'},
+          { text: '简介', link: '/categories/dearheart/'},
+          { text: '散文', link: '/categories/dearheart/essays/'},
+          { text: '音乐', link: '/categories/dearheart/music/'},
         ]
       },
     ],
